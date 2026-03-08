@@ -1,1 +1,20 @@
+O Sitemap foi criado para organizar a estrutura de navegação do sistema antes da construção das telas.
 
+Ele representa como as páginas se conectam entre si e ajuda a garantir uma navegação lógica e organizada.
+
+Estrutura principal do sistema:
+
+Home
+ ├── Login
+ ├── Cadastro
+ └── Dashboard
+      ├── Cadastrar Doação
+      ├── Cadastrar Solicitação
+      ├── Minhas Doações
+      └── Minhas Solicitações
+
+
+
+ Essa organização foi pensada para manter o sistema simples e direto, permitindo que o usuário encontre rapidamente as funções principais.
+
+ A página Home funciona como ponto inicial do sistema, onde o usuário pode acessar as opções de Login ou Cadastro. Após realizar o login, o usuário é direcionado ao Dashboard, que funciona como painel principal da plataforma. A partir do Dashboard, o usuário pode acessar as funcionalidades do sistema, como cadastrar doações, cadastrar solicitações, visualizar suas doações e acompanhar suas solicitações. Essa organização ajuda a manter uma navegação simples e clara dentro do sistema.
