@@ -24,6 +24,11 @@ Nesta etapa, foram prototipadas as seguintes telas:
 
 As demais telas do sistema foram desenvolvidas por outro integrante da equipe.
 
+- Cadastrar Doação
+- Cadastrar Solicitação
+- Minhas Doações
+- Minhas Solicitações
+
 ---
 
 ## 🏠 Tela Home
@@ -101,6 +106,78 @@ O dashboard foi pensado como a tela principal após o login, centralizando as fu
   - Minhas solicitações
 - Footer
 
+## 🎒 Cadastrar Doação
+
+Nesta tela o usuário pode registrar materiais escolares que deseja disponibilizar para doação. O formulário permite informar detalhes do material, quantidade e outras informações relevantes.
+
+### Campos da tela:
+- Nome do material
+- Descrição
+- Estado do material (novo ou usado)
+- Quantidade disponível
+
+Botões da tela:
+Adicionar Doação
+- Registra o material no sistema e o torna disponível para solicitação por outros usuários.
+Cancelar
+- Cancela o cadastro da doação e retorna ao Dashboard.
+
+
+## 📦 Cadastrar Solicitação
+
+A tela de Cadastrar Solicitação permite que usuários solicitem materiais disponíveis no sistema. Dessa forma, pessoas que precisam de determinados itens podem registrar suas demandas.
+Nesta tela o usuário pode registrar materiais escolares que deseja disponibilizar para doação.
+
+### Campos da tela:
+
+- Seleção do material desejado
+- Quantidade solicitada
+- Observações (opcional)
+
+Botões da tela:
+- Solicitar
+Registra o pedido do material no sistema.
+- Cancelar
+Interrompe a solicitação e retorna ao Dashboard.
+
+## 🤝 Minhas Doações
+
+Nesta área o usuário pode visualizar e acompanhar todas as doações que cadastrou, permitindo acompanhar os materiais disponibilizados e sua situação dentro da plataforma.
+
+### Cada item exibido mostra informações como:
+
+- nome do material
+- quantidade
+- estado do material
+- status da doação
+
+Botões da tela:
+- Editar
+Permite alterar informações da doação cadastrada.
+- Remover
+Exclui a doação do sistema.
+
+## 📥 Minhas Solicitações
+
+A tela Minhas Solicitações permite que o usuário acompanhe os pedidos de materiais realizados, visualizando o status de cada solicitação feita no sistema.
+
+### Cada solicitação apresenta informações como:
+
+- material solicitado
+- quantidade
+- status da solicitação
+
+Possíveis status:
+- Em análise
+- Aprovado
+- Recusado
+
+Botões da tela:
+- Visualizar detalhes
+Mostra informações mais detalhadas sobre a solicitação.
+- Cancelar solicitação
+Permite cancelar o pedido caso ele ainda não tenha sido aprovado.
+
 ### Objetivo:
 Servir como painel principal de navegação, facilitando o acesso rápido às funcionalidades do sistema e apresentando informações resumidas ao usuário.
 
@@ -148,3 +225,4 @@ O **design centrado no usuário** contribui diretamente para a melhoria da quali
 
 As imagens dos wireframes e do sitemap foram adicionadas a este repositório para representar visualmente a estrutura do MVP.
 
+## Documentação do Projeto Material Solidário
